@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  heigth: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+#movieDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.movieDivContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieDivContent label {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  style-weight: bold;
+  border-radius: 80%;
+  background-color: blue;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.movieDivContent img {
+  max-height: 240px;
+  border-radius: 59px;
+}
+
+.addMovie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.addMovieContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+}
+
+.addMovieContent #addResult.adicionado {
+  color: green;
+}
+
+.addMovieContent #addResult.naoAdicionado {
+  color: red;
+}
+
+.addMovieContent input + input {
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.addMovieContent button {
+  height: 34px;
+  border: 0;
+  border-radius: 0px 0px 8px 8px;
+  color: white;
+  style-weight: bold;
+  background-color: blue;
+}
+
+.addMovieContent button + button {
+  margin-top: 14px;
+  border-radius: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.addMovieContent label {
+  color: white;
+  style-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.addMovieContent input {
+  display: flex;
+  margin-bottom: 14px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #f0f0f5;
+  padding: 14px 16px;
+  font-height: 14px;
+}
