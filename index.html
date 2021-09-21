@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AluraFlix v1- ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <header>
+    <h1 class="page-title">
+      Aluraflix
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  </header>
+  <div id="movieDiv">
+  </div>
+  <div class="addMovie">
+    <div class="addMovieContent">
+      <span id="addResult"></span>
+      <label for="movieName">Coloque seus filmes</label>
+      <input id="movieName" placeHolder="Nome do filme" />
+      <input id="imgUrl" type="url" placeHolder="url da imagem" />
+      <button onclick="AdicionarMovie()" type="submit">Adicionar filme</button>
+      <button onclick="showMovies()" type="submit">Exibir filmes</button>
+    </div>
+  </div>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
